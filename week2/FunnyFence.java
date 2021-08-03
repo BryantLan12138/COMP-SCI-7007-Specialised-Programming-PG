@@ -28,6 +28,7 @@ public class FunnyFence {
                 {
                     tmp = length;
                 }
+                //no matter whether 'tmp' is updated, update length back to 1
                 length = 1;
 
             }
