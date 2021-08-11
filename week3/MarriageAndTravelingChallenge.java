@@ -11,6 +11,9 @@ public class MarriageAndTravelingChallenge {
     public static String solve(String S){
         String echo = "";
 
+        if(S.length() == 1){
+            return S;
+        }
         //use two index for this question
         int i, j = 0;
 
@@ -25,6 +28,6 @@ public class MarriageAndTravelingChallenge {
     }
 
     public static void main(String[] args){
-        System.out.print(solve("aaa"));
+        System.out.print(solve("z"));
     }
 }
