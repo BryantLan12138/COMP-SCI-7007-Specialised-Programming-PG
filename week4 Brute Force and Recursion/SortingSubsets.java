@@ -17,7 +17,7 @@ Compute and return the smallest possible size of the set of selected positions.
 */
 
 public class SortingSubsets {
-    public int count = 1;
+    public int count = 0;
     public int getMinimalSize(int[] a) {
 
 //        for(int i: a) {
