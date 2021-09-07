@@ -8,6 +8,7 @@ public class PrimeSoccer {
         double aProbability = (double)(skillOfTeamA / 100.0);
         double bProbability = (double)(skillOfTeamB / 100.0);
 
+        // possibility of team a cannot score in an interval
         a[0][0] = 1 - aProbability;
         a[0][1] = aProbability;
         b[0][0] = 1 - bProbability;
