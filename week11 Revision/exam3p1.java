@@ -4,8 +4,8 @@ public class exam3p1 {
         int supply = 0;
         int result = 0;
         boolean[] visited = new boolean[pos.length];
-        int i = 0;
-        for(; i < pos.length; i++) {
+//        int i = 0;
+        for(int i = 0; i < pos.length; i++) {
             supply += delta[i];
             // if that's a supply
             if(delta[i] >= 0 ) {

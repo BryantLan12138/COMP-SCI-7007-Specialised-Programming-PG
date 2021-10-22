@@ -54,7 +54,7 @@ public class AlternateColors {
                 }
             }
 
-            else if(0 == g) {
+            else if(g == 0) {
                 long min2 = Math.min(r, b);
                 if( k <= 2L*min2) {
                     if (k % 2 == 1) {
